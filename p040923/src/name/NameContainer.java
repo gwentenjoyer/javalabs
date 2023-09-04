@@ -18,7 +18,7 @@ public class NameContainer {
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name = name.strip();
     }
 
     public String getSurname() {
@@ -26,7 +26,7 @@ public class NameContainer {
     }
 
     public void setSurname(String surname) {
-        this.surname = surname;
+        this.surname = surname.strip();
     }
 
     public String printFullname() {
